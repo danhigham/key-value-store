@@ -5,5 +5,22 @@
 	"Packages": [
 		"./..."
 	],
-	"Deps": []
+	"Deps": [
+		{
+			"ImportPath": "code.cloudfoundry.org/lager",
+			"Rev": "62951a8009ab331bb21dc418074fa54e66eb9b6a"
+		},
+		{
+			"ImportPath": "github.com/gorilla/context",
+			"Rev": "14f550f51af52180c2eefed15e5fd18d63c0a64a"
+		},
+		{
+			"ImportPath": "github.com/gorilla/mux",
+			"Rev": "854d482e26505d59549690719cbc009f04042c2e"
+		},
+		{
+			"ImportPath": "github.com/nu7hatch/gouuid",
+			"Rev": "179d4d0c4d8d407a32af483c2354df1d2c91e6c3"
+		}
+	]
 }
