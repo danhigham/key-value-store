@@ -1,22 +1,16 @@
 {
-	"ImportPath": "github.com/danhigham/udp-discovery",
-	"GoVersion": "go1.6",
-	"GodepVersion": "v63",
-	"Packages": [
-		"./..."
-	],
+	"ImportPath": "github.com/danhigham/key-value-store",
+	"GoVersion": "go1.8",
+	"GodepVersion": "v79",
 	"Deps": [
 		{
 			"ImportPath": "code.cloudfoundry.org/lager",
-			"Rev": "62951a8009ab331bb21dc418074fa54e66eb9b6a"
-		},
-		{
-			"ImportPath": "github.com/gorilla/context",
-			"Rev": "14f550f51af52180c2eefed15e5fd18d63c0a64a"
+			"Rev": "b4f07fd10491fae0d6d9a0d07145e9f90935ac50"
 		},
 		{
 			"ImportPath": "github.com/gorilla/mux",
-			"Rev": "854d482e26505d59549690719cbc009f04042c2e"
+			"Comment": "v1.4.0-10-g18fca31",
+			"Rev": "18fca31550181693b3a834a15b74b564b3605876"
 		},
 		{
 			"ImportPath": "github.com/nu7hatch/gouuid",
